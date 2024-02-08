@@ -6,6 +6,16 @@ The keys of
 **deployment\genre_types_encoded.json**
   shows the book genres.
 
+# Data Collection
+
+Data has been sourced from the official IMDB website listing.
+
+The process of scraping movie details, including titles, descriptions, and genres, has been executed utilizing the Selenium library. The corresponding code is available in the scraper/movie_details_scrapper.py directory.
+
+The data collection endeavor remains ongoing, and all gathered information is being stored in the data/imdv_movies.csv file.
+
+Update: The number of collected movies has now reached 25000, pending further processing and training.
+
 # Model Deployment
  The compressed model is deployed to HuggingFace Spaces Gradio App. I utilized the Gradio App to deploy the model.
  HuggingFace Spaces [Here](https://huggingface.co/spaces/Somoresh/movie-genre-classifier)
