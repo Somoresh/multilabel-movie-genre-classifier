@@ -2,7 +2,8 @@
 
 # Objective
 The primary objective of this initiative was to develop a multi-label text classification model tailored to predict movie genres based on their descriptions. The scope of the project encompassed various phases, including data acquisition, preprocessing, model development, deployment, and seamless integration with application programming interfaces (APIs).
-The keys of "deployment\genre_types_encoded.json" shows the book genres.
+The keys of 
++ deployment\genre_types_encoded.json shows the book genres.
 
 # Model Deployment
  The compressed model is deployed to HuggingFace Spaces Gradio App. I utilized the Gradio App to deploy the model.
