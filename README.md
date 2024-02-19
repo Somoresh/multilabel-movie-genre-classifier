@@ -23,6 +23,9 @@ Through meticulous preprocessing detailed in notebooks/Multilabel_Texr_Classific
 # Model Training
 Crafted with precision, I finetuned a "distilroberta-base" model sourced from HuggingFace Transformers utilizing Fastai and Blurr frameworks. Through meticulous training across two stages, employing both freeze and unfreeze techniques, I distilled the essence of optimal performance. Ultimately, the pinnacle of excellence emerged, boasting an impressive accuracy of 87.6%. For a deeper understanding of the model's evolution, the comprehensive training notebook awaits exploration at notebooks/Multilabel_Text_Classifier.ipynb
 
+# Model Compression and ONNX Inference
+The trained model has a memory of 300+MB. This model was compressed using ONNX . The compression code can be found in notebooks/onnx_inference(1).ipynb and the model links can be found in models folder.
+
 # Model Deployment
  The compressed model is deployed to HuggingFace Spaces Gradio App. I utilized the Gradio App to deploy the model.
  HuggingFace Spaces [Here](https://huggingface.co/spaces/Somoresh/movie-genre-classifier)
