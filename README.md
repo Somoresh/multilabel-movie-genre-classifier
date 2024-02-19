@@ -16,6 +16,10 @@ The data collection endeavor remains ongoing, and all gathered information is be
 
 Update: The number of collected movies has now reached 25000, pending further processing and training.
 
+# Data Processing
+
+Through meticulous preprocessing detailed in notebooks/Multilabel_Texr_Classification.ipynb, duplicates and missing values were efficiently handled. To enhance model accuracy, two infrequent genres from 24 genres, namely Film and Noir, were judiciously dropped from the dataset. This strategic decision ensures optimal training outcomes, as training with rare genres could compromise model performance. The resulting refined dataset can be accessed in the designated data folder, reflecting our commitment to meticulous data management and model optimization.
+
 # Model Deployment
  The compressed model is deployed to HuggingFace Spaces Gradio App. I utilized the Gradio App to deploy the model.
  HuggingFace Spaces [Here](https://huggingface.co/spaces/Somoresh/movie-genre-classifier)
